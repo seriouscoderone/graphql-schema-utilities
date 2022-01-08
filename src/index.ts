@@ -13,6 +13,7 @@ import {
 } from './types';
 import * as utils from './utilities';
 export { mergeGQLSchemas, validateOperations} from './cli';
+export { printSchemaDefault, printSchemaWithDirectives } from './printers';
 
 export interface IQueryFileError {
   file: string;
